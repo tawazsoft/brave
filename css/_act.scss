@@ -1,0 +1,67 @@
+.act{
+    height: 700px;
+    width: 100%;
+    position: relative;
+
+    .act-inner{
+
+        .actor{
+            // height: 200px;
+            width: 100%;
+            height: 490px;
+            
+            display: flex;
+           justify-content: center;
+            flex-direction: column;
+            // align-items: flex-start;
+           p{
+               font-size: 22px;
+               font-family: 'Raleway';
+           }
+
+           h2{
+               font-size: 21px;
+               font-family: 'Raleway';
+               font-weight: bold;
+               margin: 20px 0;
+           }
+           span{
+               color: #019D6E;
+               font-size: 22px;
+               font-weight: bold;
+
+           }
+        }
+
+
+        .actor-btn{
+            height: 200px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            top: 25%;
+            left: 20%;
+            position: absolute;
+            display: none;
+        }
+        .act-slider{
+            height: 100%;
+            width: 100%;
+           
+            margin-top: 12%;
+            
+
+            .slick-custom-arrow-right {
+                right: 38%;
+                top: -20%;
+            }
+
+            .act-slidin{
+                height: 300px;
+                width: 100%;
+            }
+        }
+        
+        
+    }
+}

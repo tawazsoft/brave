@@ -1,0 +1,55 @@
+.packages{
+
+    height: 137vh;
+    width: 100%;
+    position: relative;
+    // margin: 96px auto;
+    
+    .package{
+ 
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .p-inner{
+            position: absolute;
+            top: 26%;
+            display: none;
+        
+        }
+        
+
+        .package-inner{
+            
+    
+            h2{
+                font-size: 47px;
+                margin: 10px 0;
+            }
+    
+            span{
+                color: #019D6E;
+                font-size: 22px;
+            }
+    
+            p{
+                font-size: 22px;
+            }
+        }
+    }
+
+
+    .package-slider{
+        height: 50vh;
+        #image3{
+        position: absolute;
+        top: 100%;
+        height: 200px;
+        width: 200px;
+        left: 38%;
+        display: none;
+        }
+    }
+}

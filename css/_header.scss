@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 30px;
+    position: relative;
+
+
+    .nav-links {
+        display: flex;
+        list-style: decimal-leading-zero;
+        display: none;
+
+        li{
+            margin: auto 40px;
+            padding-left: 5px;
+            list-style: bold;
+
+            &::marker{
+                font-weight: bold;
+            }
+
+            a{
+                font-size: 22px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+    
+}
